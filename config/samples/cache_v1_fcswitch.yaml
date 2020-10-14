@@ -1,0 +1,7 @@
+apiVersion: cache.example.com/v1
+kind: FcSwitch
+metadata:
+  name: fcswitch-sample
+spec:
+  # Add fields here
+  foo: bar

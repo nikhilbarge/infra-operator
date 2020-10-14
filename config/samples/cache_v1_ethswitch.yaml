@@ -1,0 +1,7 @@
+apiVersion: cache.example.com/v1
+kind: EthSwitch
+metadata:
+  name: ethswitch-sample
+spec:
+  # Add fields here
+  foo: bar

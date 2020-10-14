@@ -1,0 +1,7 @@
+apiVersion: cache.example.com/v1
+kind: InfrastructurePool
+metadata:
+  name: infrastructurepool-sample
+spec:
+  # Add fields here
+  foo: bar

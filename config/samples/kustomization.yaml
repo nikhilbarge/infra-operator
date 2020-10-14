@@ -1,0 +1,5 @@
+## This file is auto-generated, do not modify ##
+resources:
+- cache_v1_infrastructurepool.yaml
+- cache_v1_fcswitch.yaml
+- cache_v1_ethswitch.yaml

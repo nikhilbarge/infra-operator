@@ -1,0 +1,16 @@
+domain: example.com
+layout: go.kubebuilder.io/v2
+repo: github.com/nikhilbarge/infra-operator
+resources:
+- group: cache
+  kind: InfrastructurePool
+  version: v1
+- group: cache
+  kind: FcSwitch
+  version: v1
+- group: cache
+  kind: EthSwitch
+  version: v1
+version: 3-alpha
+plugins:
+  go.operator-sdk.io/v2-alpha: {}

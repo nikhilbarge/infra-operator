@@ -9,6 +9,26 @@ rules:
 - apiGroups:
   - cache.example.com
   resources:
+  - ethswitch
+  verbs:
+  - create
+  - delete
+  - get
+  - list
+  - patch
+  - update
+  - watch
+- apiGroups:
+  - cache.example.com
+  resources:
+  - ethswitch/status
+  verbs:
+  - get
+  - patch
+  - update
+- apiGroups:
+  - cache.example.com
+  resources:
   - ethswitches
   verbs:
   - create
@@ -22,6 +42,26 @@ rules:
   - cache.example.com
   resources:
   - ethswitches/status
+  verbs:
+  - get
+  - patch
+  - update
+- apiGroups:
+  - cache.example.com
+  resources:
+  - fcswitch
+  verbs:
+  - create
+  - delete
+  - get
+  - list
+  - patch
+  - update
+  - watch
+- apiGroups:
+  - cache.example.com
+  resources:
+  - fcswitch/status
   verbs:
   - get
   - patch

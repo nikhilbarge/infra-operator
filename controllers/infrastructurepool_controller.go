@@ -46,6 +46,10 @@ type InfrastructurePoolReconciler struct {
 
 // +kubebuilder:rbac:groups=cache.example.com,resources=infrastructurepools,verbs=get;list;watch;create;update;patch;delete
 // +kubebuilder:rbac:groups=cache.example.com,resources=infrastructurepools/status,verbs=get;update;patch
+// +kubebuilder:rbac:groups=cache.example.com,resources=fcswitch,verbs=get;list;watch;create;update;patch;delete
+// +kubebuilder:rbac:groups=cache.example.com,resources=fcswitch/status,verbs=get;update;patch
+// +kubebuilder:rbac:groups=cache.example.com,resources=ethswitch,verbs=get;list;watch;create;update;patch;delete
+// +kubebuilder:rbac:groups=cache.example.com,resources=ethswitch/status,verbs=get;update;patch
 
 func (r *InfrastructurePoolReconciler) Reconcile(req ctrl.Request) (ctrl.Result, error) {
 	_ = context.Background()

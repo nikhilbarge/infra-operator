@@ -3,5 +3,6 @@ kind: FcSwitch
 metadata:
   name: fcswitch-sample
 spec:
-  # Add fields here
-  foo: bar
+  name: "fcswtch1"
+  ipaddress: "127.1.1.11"
+  timestamp: "now"

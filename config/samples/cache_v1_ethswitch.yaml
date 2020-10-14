@@ -3,5 +3,6 @@ kind: EthSwitch
 metadata:
   name: ethswitch-sample
 spec:
-  # Add fields here
-  foo: bar
+  name: "eth1"
+  ipaddress: "127.1.1.10"
+  timestamp: "now"

@@ -3,5 +3,6 @@ kind: InfrastructurePool
 metadata:
   name: infrastructurepool-sample
 spec:
-  # Add fields here
-  foo: bar
+  name: "isp1"
+  ipaddress: "127.1.1.12"
+  timestamp: "now"

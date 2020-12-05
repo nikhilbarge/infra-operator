@@ -14,12 +14,12 @@ Use [Make file](Makefile) to build and deploy project.
 
 Follwing are the commands to build and deploy Operator 
     
- - To run the operator locally use
+  To run the operator locally use
    
     make install && make run ENABLE_WEBHOOKS=false WATCH_NAMESPACE=default 
 
- - To create and push docker image use
+  To create and push docker image use
     
-    make docker-push  IMG=<Your Repository>/<Image Name>:<Tag>
+    make docker-push  IMG=<Your Repository>:<Tag>
 
 

@@ -2,9 +2,9 @@
 
 ## Project to demo kubernetes operator
 
-Infra-Operator is kubernetes operator developed using Operator SDK
-It will demonstrate working of reconciler, watches and webhooks.
-It has few custom resources defined and have controller recocilers implemeted for those CRD's 
+- Infra-Operator is kubernetes operator developed using Operator SDK
+- It will demonstrate working of reconciler, watches and webhooks.
+- It has few custom resources defined and have controller recocilers implemeted for those CRD's 
 
 ## Prerequisites
 You need to have [Operator SDK](https://sdk.operatorframework.io/docs/installation/install-operator-sdk/) and Go installed to be able to build the Infra-Operator. 

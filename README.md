@@ -20,6 +20,6 @@ Follwing are the commands to build and deploy Operator
 
   To create and push docker image use
     
-    make docker-push  IMG=<Your Repository>:<Tag>
+     make docker-build docker-push IMG=<Your Repository>:<Tag>
 
 
